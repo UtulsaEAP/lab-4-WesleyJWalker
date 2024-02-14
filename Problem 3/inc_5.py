@@ -10,7 +10,7 @@ def inc_5():
     second = int(input())
     sequence = ""
     if second < first:
-        print("Second integer can't be less than the first")
+        print("Second integer can't be less than the first.")
         return()
     while first <= second:
         sequence += str(first) + " "
